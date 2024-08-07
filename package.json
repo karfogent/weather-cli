@@ -1,0 +1,20 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "license": "MIT",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "author": "Bash Konstantin",
+  "dependencies": {
+    "@types/node": "^20.14.12",
+    "chalk": "^5.3.0",
+    "dedent-js": "^1.0.1"
+  }
+}

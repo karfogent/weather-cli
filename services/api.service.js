@@ -39,7 +39,6 @@ const getWeather = async(city) => {
         }
     });
     return data;
-    //45be973a88d17f86a4109ef71a9caac9
 };
 
 export { getWeather, getIcon };
